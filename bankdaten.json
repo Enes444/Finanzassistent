@@ -1,0 +1,8 @@
+[
+  {"datum": "2024-01-01", "betrag": -50.0, "kategorie": "Lebensmittel"},
+  {"datum": "2024-01-05", "betrag": -100.0, "kategorie": "Miete"},
+  {"datum": "2024-01-10", "betrag": 2000.0, "kategorie": "Gehalt"},
+  {"datum": "2024-02-01", "betrag": -60.0, "kategorie": "Lebensmittel"},
+  {"datum": "2024-02-05", "betrag": -100.0, "kategorie": "Miete"},
+  {"datum": "2024-02-10", "betrag": 2000.0, "kategorie": "Gehalt"}
+]

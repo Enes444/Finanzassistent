@@ -1,0 +1,8 @@
+{
+  "Hobbys": ["Fitness", "Reisen", "Essen gehen"],
+  "Prioritäten": {
+    "Lebensmittel": "hoch",
+    "Miete": "mittel",
+    "Freizeit": "niedrig"
+  }
+}
