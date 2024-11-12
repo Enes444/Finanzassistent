@@ -37,7 +37,7 @@ def zeige_ausgaben(ausgaben):
 
     # Plotly Balkendiagramm mit eindeutigen Schlüssel
     fig = px.bar(df, x="Kategorie", y="Betrag", title="Monatliche Ausgaben", color="Kategorie")
-    st.plotly_chart(fig, use_container_width=True, key="ausgaben_balken")
+    st.plotly_chart(fig, use_container_width=True, key="ausgaben_balken_unique")  # Eindeutiger Schlüssel
 
 def lade_praeferenzen(datei):
     try:
@@ -235,7 +235,7 @@ def main():
                 color="Kategorie",
                 template="plotly_dark"
             )
-            st.plotly_chart(fig, use_container_width=True, key="ausgaben_balken")
+            st.plotly_chart(fig, use_container_width=True, key="ausgaben_balken_unique_1")  # Eindeutiger Schlüssel
 
     # Fitnessdatenvisualisierung
     if fitnessdaten:
@@ -255,7 +255,7 @@ def main():
                 markers=True,
                 template="plotly_dark"
             )
-            st.plotly_chart(fig_steps, use_container_width=True, key="schritte_linienchart")
+            st.plotly_chart(fig_steps, use_container_width=True, key="schritte_linienchart_unique_2")  # Eindeutiger Schlüssel
 
     # Sportaktivitäten anzeigen
     if fitnessdaten:
